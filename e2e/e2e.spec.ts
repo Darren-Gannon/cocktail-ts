@@ -48,7 +48,7 @@ describe('End to End Test', () => {
                 MyService: m => new MyService(m.imports.TestModule.services.TestService as TestService)
             },
             imports: {
-                TestModule: TestModule
+                TestModule
             }
         });
         done();
