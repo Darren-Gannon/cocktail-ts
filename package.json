@@ -1,0 +1,26 @@
+{
+  "name": "cocktail-ts",
+  "version": "1.0.0",
+  "description": "An IOC Container for Node",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p .",
+    "test:e2e": "mocha -r ts-node/register 'e2e/**/*.spec.ts'",
+    "test:unit": "mocha -r ts-node/register 'src/**/*.spec.ts'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.9",
+    "@types/chai-as-promised": "^7.1.2",
+    "@types/mocha": "^7.0.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.1.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {}
+}
