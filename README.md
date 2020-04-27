@@ -85,7 +85,7 @@ class MyService implements Service {
     async onDestroy(): Promise<void> { }
 
     sayHello(){
-        return `hello ${this.testService.getName()}`
+        return `hello ${this.OtherService.getName()}`
     }
 }
 ```
