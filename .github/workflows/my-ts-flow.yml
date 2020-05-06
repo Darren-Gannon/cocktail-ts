@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Typescript Test e2e
 
 on:
   push:
